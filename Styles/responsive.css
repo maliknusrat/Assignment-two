@@ -87,8 +87,9 @@
     }
 
     .video-section{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+        /* display: grid;
+        grid-template-columns: repeat(1,1fr); */
     }
 
     .games {

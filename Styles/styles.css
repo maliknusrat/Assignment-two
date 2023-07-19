@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
-*{
-    margin: 0;
-}
 /*common styles*/
 * {
     font-family: 'Lato', sans-serif;
@@ -189,8 +186,8 @@
 .game{
  display: flex;
  align-items: center;
- justify-content: space-between;
- padding: 40px;
+ justify-content:center;
+ gap: 100px;
  margin-bottom: 30px;
 }
 .game-img-size1{

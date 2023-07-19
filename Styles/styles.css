@@ -70,39 +70,33 @@
 }
 
 /*Banner Section*/
-
-/* .banner{
-    background-image: url('../images/Group 14.png');
-    background-position: left 50%,right 30%;
-    max-height: 1000px;
-    display: flex;
-    background-repeat: no-repeat;
-} */
 .banner {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .banner-content-one {
-    width: 70%;
     background-image: url('../images/Group 14.png');
+    background-position-x: right;
     text-align: left;
-    padding: 30px 0 300px 100px;
+    padding:150px 200px 100px 80px ;
     background-repeat: no-repeat;
 }
 .banner-content-two{
-    width: 70%;
+    width: 600px;
+    height: fit-content;
 }
 
 
 .banner-text{
     font-weight: 500;
-    font-size: 50px;
+    font-size: 30px;
     margin-bottom: 0;
 }
 .banner-head{
     font-weight: 900;
-    font-size: 90px;
+    font-size: 50px;
     margin-top: 0;
     background-image: linear-gradient(to bottom,#e893cf,#7b57df);
     color: transparent;
@@ -135,7 +129,10 @@
     font-weight: 500;
     padding: 15px 35px;
 }
+
+/* Games button */
 .games{
+    background-color: #FFF9FC;
     padding: 50px;
     margin:auto;
     display: grid;
@@ -143,8 +140,7 @@
 }
 
 .games-section{
-    margin-top: 300px;
-    background-color: antiquewhite;
+    margin-top: 300px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,12 +163,14 @@
 
 }
 .games-specific:hover{
+    background-color: white;
     border: 2px #FF42A5 solid;
     border-radius: 50px;
     color: #FF42A5;
 }
 
 .games-specific-hover:hover{
+    background-color: white;
     border: 2px #FF42A5 solid;
     border-radius: 50px;
     color: #FF42A5;
@@ -283,7 +281,7 @@
 
 /* footer Section */
 .foot-back{
-    margin-top: 200px;
+    margin-top: 100px;
     padding: 100px 0 100px 0;
     background-color: #0B0223;
     color: white;

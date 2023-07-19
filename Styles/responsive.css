@@ -1,16 +1,19 @@
 @media screen and (max-width:400px) {
-    .nav-container{
+    .nav-container {
         flex-direction: column;
 
     }
-    .nav-items-container{
+
+    .nav-items-container {
         width: 80%;
-       flex-direction: column;
+        flex-direction: column;
     }
-    .nav-items-container a{
+
+    .nav-items-container a {
         margin-top: 20px;
     }
-    .nav-items-container .follow-us-btn{
+
+    .nav-items-container .follow-us-btn {
         width: 100%;
         margin-bottom: 10px;
         display: flex;
@@ -18,44 +21,93 @@
         justify-content: center;
     }
 
-    .banner-content-two{
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner-content-two {
         width: 100%;
     }
-    .game{
+    .video-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .games {
+        margin-top: 120px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .games-specific {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 3px;
+    }
+
+    .games-specific-hover {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 3px;
+    }
+
+    .games-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .games-text {
+        font-weight: bold;
+    }
+
+
+
+    .game {
         flex-direction: column;
         padding: 0;
-    } 
-    .game-text{
+    }
+
+    .game-text {
         padding-top: 40px;
         padding-left: 0;
     }
-    .game-image{
+
+    .game-image {
         margin-left: 0;
     }
-    .game-img-size1{
+
+    .game-img-size1 {
         width: 250px;
     }
-    .game-img-size2{
+
+    .game-img-size2 {
         position: absolute;
         width: 150px;
         margin-top: 37%;
         margin-left: -80%;
     }
-    .game-head{
+
+    .game-head {
         text-align: center;
     }
-    .game-pera{
+
+    .game-pera {
         text-align: center;
     }
-    .foot-back{
+
+    .foot-back {
         width: 100%;
         background-color: #0B0223;
         color: white;
         margin: auto;
     }
-    .foot-button{
-    }
-    .foot-text{
+
+    .foot-button {}
+
+    .foot-text {
         width: 50%;
         text-align: justify;
 

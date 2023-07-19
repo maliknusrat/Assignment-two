@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
-
+*{
+    margin: 0;
+}
 /*common styles*/
 * {
     font-family: 'Lato', sans-serif;
@@ -78,10 +80,9 @@
     display: flex;
     background-repeat: no-repeat;
 } */
-.banner{
-    display: flex;
-    align-items: center;
-    justify-items: center;
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .banner-content-one {
@@ -132,6 +133,58 @@
     font-weight: 500;
     padding: 15px 35px;
 }
+.games{
+    padding: 50px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.games-section{
+    margin-top: 300px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.games-specific{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 10px;
+}
+
+.games-specific-hover{
+
+    display: flex;
+    gap: 16px;
+    padding: 10px;
+    align-items: center;
+
+}
+.games-specific:hover{
+    border: 2px #FF42A5 solid;
+    border-radius: 50px;
+    color: #FF42A5;
+}
+
+.games-specific-hover:hover{
+    border: 2px #FF42A5 solid;
+    border-radius: 50px;
+    color: #FF42A5;
+}
+
+.games-img{
+    width: 60px;
+    height: 60px;
+}
+
+.games-text{
+    font-weight: bold;
+}
+
 /* Game */
 .game{
  display: flex;
@@ -171,21 +224,18 @@
     font-size: 16px;
 }
 /* Online Games */
-* {
-    margin: 0;
-}
 
 .icon{
     background-color: black;
-    width: 342px;
-    height: 400px;
+    width: 250px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: absolute;
     border-radius: 10px;
-    margin-top: -470px;
+    margin-top: -395px;
     opacity: .8;
     visibility: hidden;
 }
@@ -215,16 +265,14 @@
 }
 
 .video-section{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 
 .img-des{
     margin-top: 10px;
     font-size: 25px;
-    width: 320px;
+    width: 250px;
 }
 
 .container:hover .icon{
@@ -275,5 +323,9 @@
     text-align: center;
     width:500px;
     margin: auto;
+}
+
+.img-size{
+    width: 250px;
 }
 

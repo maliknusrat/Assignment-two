@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/*common styles*/
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/*navbar*/
+.nav-container {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.logo-container {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.logo-container img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.logo-container p {
+    font-size: 30px;
+}
+
+.text {
+    font-weight: 900;
+}
+
+.g-span {
+    color: #FF42A5;
+}
+
+.nav-items-container {
+    width: 50%;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-items-container a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.nav-items-container .follow-us-btn {
+    background-color: #0b02233d;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+/*Banner Section*/
+
+/* .banner{
+    background-image: url('../images/Group 14.png');
+    background-position: left 50%,right 30%;
+    max-height: 1000px;
+    display: flex;
+    background-repeat: no-repeat;
+} */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.banner-content-one {
+    width: 70%;
+    background-image: url('../images/Group 14.png');
+    text-align: left;
+    padding: 30px 0 300px 100px;
+    background-repeat: no-repeat;
+}
+.banner-content-two{
+    width: 70%;
+}
+
+
+.banner-text{
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.banner-head{
+    font-weight: 900;
+    font-size: 90px;
+    margin-top: 0;
+    background-image: linear-gradient(to bottom,#e893cf,#7b57df);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.banner-para{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.banner-button-one{
+    border-radius: 30px;
+    background: #4EC5F7;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 35px;
+}
+.banner-button-two{
+    border-radius: 30px;
+    background: #FF42A5;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 35px;
+}
+/* Game */
+.game{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 40px;
+ margin-bottom: 30px;
+}
+.game-img-size1{
+    width: 300px;
+}
+.game-img-size2{
+    position: absolute;
+    width: 200px;
+    margin-top: 17%;
+    margin-left: -28%;
+}
+.game-text{
+    padding-top: 40px;
+    padding-left: 500px;
+}
+.game-image{
+    margin-left: 10px;
+}
+.game-head{
+    width: 250px;
+    text-align: right;
+    font-weight: 700px;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.game-pera{
+    margin-top: 20px;
+    width: 250px;
+    text-align: right;
+    font-weight: 200px;
+    font-size: 16px;
+}
+/* Online Games */
+* {
+    margin: 0;
+}
+
+.icon{
+    background-color: black;
+    width: 342px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: -470px;
+    opacity: .8;
+    visibility: hidden;
+}
+
+.icon-text{
+    color: rgb(209, 107, 124);
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.section-title-funny {
+    color: rgb(238, 120, 195);
+}
+
+.section-des{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.video-section{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-des{
+    margin-top: 10px;
+    font-size: 25px;
+    width: 320px;
+}
+
+.container:hover .icon{
+    visibility: visible;
+}
+
+/* footer Section */
+.foot-back{
+    margin-top: 200px;
+    padding: 100px 0 100px 0;
+    background-color: #0B0223;
+    color: white;
+}
+.foot-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-logo img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.foot-logo p {
+    font-size: 30px;
+}
+
+.foot-text{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.foot-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+}
+.policy{
+    text-align: center;
+    width:500px;
+    margin: auto;
+}
+
